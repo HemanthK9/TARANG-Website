@@ -1,0 +1,129 @@
+/*Keep this https://stackoverflow.com/questions/43579063/get-rid-of-bootstrap-grid-margin*/
+.no-margin {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.menu-bar-custom {
+    height: 8vh;
+    width: 100vw;
+    background-color: black;
+    color: white;
+}
+
+/*Read for em vs rem vs px vs vs    https://medium.com/@madhum86/css-font-sizing-pixels-vs-em-vs-rem-vs-percent-vs-viewport-units-b1485716afe7*/
+.image-top-half {
+    height: 32vh;
+    width: 100vw;
+    background-color: blue;
+
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.bottom-half {
+    height: 60vh;
+    width: 100vw;
+    background-image: url('backgrounds/bg6.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+
+.row-remove-margin {
+    margin-left: 0px;
+    margin-right: 0px;
+    height: 100%;
+}
+.col-match-row {
+    height: 100%;
+}
+
+.text-description-div {
+    height: 100%;
+}
+.lead {
+    font-family: verdana;
+    font-size: 1.1rem;
+}
+.readjust-height {
+    max-height: 100%;
+}
+.event-heading {
+    color: white;
+    padding-top: 3vw;
+    margin-left: 3vw;
+    max-width: 70%;
+}
+
+.event-description {
+    color: white;
+    padding-top: 3vw;
+    margin-left: 3vw;
+    max-width: 70%;
+    overflow: auto;
+    max-height: 65%;
+}
+
+.register-div {
+    height: 100%;
+    color: white;
+}
+
+.register-button {
+    position: relative;
+    margin-left: 10vw;
+    margin-top: 25vh;
+    width: 10vw;
+    height: 7vh;
+    text-align: center;
+}
+
+/*
+.footer {
+    height: 15vh;
+    width: 100vw;
+    background-color: yellow;
+}*/
+
+
+@media only screen and (max-width: 994px) {
+    .bottom-half {
+        height: 80vh;
+        width: 100vw;
+        background-image: url('backgrounds/bg6.jpg');
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+    .register-button {
+        position: relative;
+        width: 25vw;
+        height: 8vh;
+        padding: 0px;
+        margin-top: 0vh;
+        margin-left: 37.5vw;
+        text-align: center;
+    }
+    .readjust-height {
+        max-height: 80%;
+    }
+    .event-description {
+        color: white;
+        padding-top: 3vw;
+        margin-left: 3vw;
+        max-width: 90%;
+    }
+    .lead {
+        font-family: verdana;
+        font-size: 0.9rem;
+    }
+    .event-heading {
+        color: white;
+        padding-top: 3vw;
+        margin-left: 3vw;
+        max-width: 90%;
+    }
+    .display-4 {
+        font-size: 2.5rem;
+    }
+}

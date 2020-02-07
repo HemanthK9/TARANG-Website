@@ -1,0 +1,56 @@
+.body-div {
+    height: 92vh;
+    background-image: url('resources/brochure/shot_60.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding-top: 6vh;
+    padding-left: 4vw;
+    padding-right: 4vw;
+}
+
+.contact-inner-div {
+    height: 80vh;
+    max-width: 92vw;
+    padding: 6vh 3vw 6vh 3vw;
+}
+
+.contact-details-div {
+    background-color: rgba(0,0,0,0.7);
+    height: 40%;
+    width: 100%;
+    overflow: auto;
+}
+.contact-map-details-div {
+    margin-top: 8vh;
+    background-color: rgba(0,0,0,0.7);
+    height: 30vh;
+}
+
+.inner-heading {
+    color: white;
+    text-align: center;
+}
+.inner-text {
+    color: white;
+    text-align: center;
+}
+.inner-button-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 20vh;
+}
+
+
+@media only screen and (max-width: 994px) {
+    .inner-heading {
+        color: white;
+        font-size: 2rem;
+        text-align: center;
+    }
+    .inner-text {
+        color: white;
+        font-size: 0.75rem;
+        text-align: center;
+    }
+}

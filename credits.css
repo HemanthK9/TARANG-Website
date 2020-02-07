@@ -1,0 +1,104 @@
+.body-div {
+    background-image: url('resources/brochure/shot_60.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    padding-top: 6vh;
+    padding-left: 6vw;
+    padding-right: 6vw;
+    overflow-x: hidden;
+    min-height: 92vh;
+}
+
+.row-remove-margin {
+    margin-left: 0px;
+    margin-right: 0px;
+    height: 100%;
+}
+
+.developer-div {
+    background-color: rgba(255, 0, 0, 0.5);
+}
+
+.coordinator-div {
+    background-color: rgba(0, 0, 255, 0.5);
+}
+
+.display-4 {
+    color: white;
+    text-align: center;
+}
+
+.card {
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  transition: all 0.2s ease-in-out;
+  box-sizing: border-box;
+  margin-top:10px;
+  margin-bottom:10px;
+  background-color:#FFF;
+}
+
+.h-90 {
+    height: 90%;
+}
+
+.card:hover {
+  box-shadow: 0 5px 5px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+.card > .card-inner {
+  padding:10px;
+}
+.card .header h2, h3 {
+  margin-bottom: 0px;
+  margin-top:0px;
+}
+.card .header {
+  margin-bottom:5px;
+}
+.card img{
+  width:100%;
+  height: 100%;
+}
+
+.inner-text {
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.inner-subtext {
+    text-align: center;
+}
+
+.image {
+    height: 80%;
+}
+
+@media only screen and (max-width: 994px) {
+    .body-div {
+        padding-left: 15vw;
+        padding-right: 15vw;
+    }
+    .display-4 {
+        color: white;
+        font-size: 2rem;
+        text-align: center;
+    }
+
+}
+
+@media only screen and (max-width: 576px) {
+    .col-custom {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+}
+@media only screen and (max-width: 500px) {
+    .col-custom {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}

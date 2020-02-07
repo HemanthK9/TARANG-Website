@@ -1,0 +1,191 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="main_page_stylesheet.css">
+    <link rel="stylesheet" type="text/css" href="events_stylesheet.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+    <link rel="stylesheet" type="text/css" href="navbar_final.css">
+    <link rel="stylesheet" type="text/css" href="animated-scroll-anchor.css">
+    <title>Tarang</title>
+
+
+  </head>
+
+  <body>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="main_page.html">Home</a>
+        <a href="about_us.html">About Us</a>
+        <a class="dropdown-toggle" href="#" data-toggle="dropdown" data>Events</a>
+        <div class="dropdown-menu">
+            <a href="hackathon.html" class="inner-dropdown">Hackathon</a>
+            <a href="c_collegium.html" class="inner-dropdown">C Collegium</a>
+            <a href="techno_quiz.html" class="inner-dropdown">Techno Quiz</a>
+            <a href="db_mania.html" class="inner-dropdown">DB Mania</a>
+            <a href="tech_explore.html" class="inner-dropdown">Tech Explore</a>
+            <a href="flyer_manifest.html" class="inner-dropdown">Flyer Manifest</a>
+            <a href="workshop.html" class="inner-dropdown">Workshop</a>
+        </div>
+        <a href="#">Brochure</a>
+        <a href="contact_us.html">Contact Us</a>
+        <a href="credits.html">Credits</a>
+    </div>
+
+    <!-- Logo -->
+    <div class="container-fluid logo-div click-close-the-navbar-1">
+        <div>
+            <img src="resources/brochure/TARANG.png" class="main-logo animated fadeIn delay-1s">
+        </div>
+        <div>
+            <img src="resources/brochure/SUMMER.png" class="main-summer animated fadeIn delay-1s">
+            <img src="resources/brochure/2020.png" class="main-2020 animated fadeIn delay-1s">
+        </div>
+        <div>
+            <img src="resources/brochure/dates.png" class="main-dates animated fadeIn delay-1s">
+        </div>
+
+        <section id="scroll" class="scroll-button">
+            <a href="#scroll-here-menubar" style="top:90vh;"><span></span></a>
+        </section>
+    </div>
+
+
+
+    <!--Menubar-->
+    <div class="container-fluid menubar-div" id="scroll-here-menubar">
+        <nav class="navbar navbar-expand-sm bg-dark navbar-dark bootstrap-navbar-custom">
+          <a href="main_page.html" class="navbar-brand">
+            <img src="resources/brochure/TARANG.png" style="max-height:100%; width: 30vw;" class="img-responsive img-responsive-custom" alt="Home">
+          </a>
+          <!-- Dropdown -->
+          <ul class="navbar-nav dropdown-custom">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle nav-link-custom" href="#" id="navbardrop" data-toggle="dropdown">
+                Events
+              </a>
+              <div class="dropdown-menu dropdown-menu-custom">
+                <a class="dropdown-item dropdown-item-custom" href="hackathon.html">Hackathon</a>
+                <a class="dropdown-item dropdown-item-custom" href="c_collegium.html">C Collegium</a>
+                <a class="dropdown-item dropdown-item-custom" href="techno_quiz.html">Techno Quiz</a>
+                <a class="dropdown-item dropdown-item-custom" href="db_mania.html">DB Mania</a>
+                <a class="dropdown-item dropdown-item-custom" href="tech_explore.html">Tech Explore</a>
+                <a class="dropdown-item dropdown-item-custom" href="flyer_manifest.html">Flyer Manifest</a>
+                <a class="dropdown-item dropdown-item-custom" href="workshop.html">Workshop</a>
+              </div>
+            </li>
+          </ul>
+          <span style="font-size:30px;cursor:pointer;" onclick="openNav()" class="sidenav-button-custom">&#9776;</span>
+        </nav>
+    </div>
+
+
+
+    <!-- Video -->
+    <div class="container-fluid video-div click-close-the-navbar-2">
+        <div class="video-embed-div">
+            <div class="embed-responsive embed-responsive-16by9 main-video">
+                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/16zAq0rIJo8?rel=0" allowfullscreen></iframe>
+            </div>
+        </div>
+
+    </div>
+
+
+    <div class="container-fluid sponsors-div">
+        <div class="sponsor-content">
+            <h1 class="display-4">Our Sponsors</h1>
+            <div class="border-top my-3 h-divider"></div>
+            <div class="row row-remove-margin">
+                    <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2">
+                        <a href="http://smartgen.in/" target="_blank" title="SmartGen Technologies" data-toggle="popover" data-trigger="hover" data-content="An innovative ed-tech company committed to transforming digital learning. They seek to transform learning with interactive digital content on an AI-based mobile platform">
+                            <img src="images/logo-smartgen.png" class="logo-images">
+                        </a>
+                    </div>
+                    <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2">
+                        <a href="#" title="SmartGen Technologies" data-toggle="popover" data-trigger="hover" data-content="Some content">
+                            <img src="img_avatar1.png" class="logo-images">
+                        </a>
+                    </div>
+                    <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2">
+                        <a href="#" title="SmartGen Technologies" data-toggle="popover" data-trigger="hover" data-content="Some content">
+                            <img src="img_avatar1.png" class="logo-images">
+                        </a>
+                    </div>
+                    <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2">
+                        <a href="#" title="SmartGen Technologies" data-toggle="popover" data-trigger="hover" data-content="Some content">
+                            <img src="img_avatar1.png" class="logo-images">
+                        </a>
+                    </div>
+                    <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2">
+                        <a href="#" title="SmartGen Technologies" data-toggle="popover" data-trigger="hover" data-content="Some content">
+                            <img src="img_avatar1.png" class="logo-images">
+                        </a>
+                    </div>
+                    <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2">
+                        <a href="#" title="SmartGen Technologies" data-toggle="popover" data-trigger="hover" data-content="Some content">
+                            <img src="img_avatar1.png" class="logo-images">
+                        </a>
+                    </div>
+            </div>
+
+
+        </div>
+    </div>
+
+
+
+    <!--https://stackoverflow.com/questions/36349879/affix-is-not-working-in-bootstrap-4-alpha-->
+    <script type="text/javascript">
+        $(window).on('scroll', function(event) {
+            var scrollValue = $(window).scrollTop();
+            if ( scrollValue > window.innerHeight + 100) {
+                 $('.menubar-div').addClass('fixed-top');
+            }else{
+                 $('.menubar-div').removeClass('fixed-top');
+            }
+        });
+        function openNav() {
+          document.getElementById("mySidenav").style.width = "250px";
+        }
+
+        function closeNav() {
+          document.getElementById("mySidenav").style.width = "0";
+        }
+
+        //TODO: Finish this. Click outside to close side navbar
+        /*var x = event.clientX;
+        var y = event.clientY;
+        if (document.getElementById("mySidenav").style.width == "250px") {
+            if (x < (window.innerWidth - 250)) {
+                closeNav();
+            }
+        }*/
+
+
+        //Enable all popovers
+        $(document).ready(function(){
+          $('[data-toggle="popover"]').popover();
+        });
+
+        //Scroll down button
+        $(function() {
+          $('a[href*=#]').on('click', function(e) {
+            e.preventDefault();
+            $('html, body').animate({ scrollTop: $($(this).attr('href')).offset().top}, 500, 'linear');
+          });
+        });
+    </script>
+  </body>
+</html>

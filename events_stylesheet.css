@@ -1,0 +1,29 @@
+.events-div {
+    background-image: url('backgrounds/bg2.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.header_color {
+  color: red;
+  background-color: black;
+  padding: 20px;
+}
+
+.container-custom {
+    margin-top: 100px;
+}
+
+.card-custom-row {
+    margin-top: 20px;
+    width: 200px;
+    height: 200px;
+}
+
+.card-img-custom {
+    height: 100px;
+}

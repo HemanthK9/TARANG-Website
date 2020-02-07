@@ -1,0 +1,33 @@
+.footer-style {
+    position: absolute;
+    left: 38vw;
+    padding: 0;
+    width: 30vw;
+    margin-top: 100vh;
+    margin-right: 0;
+    margin-left: 0;
+    margin-bottom: 5vh;
+}
+
+.icon {
+    height: 7vh;
+    width: 7vw;
+}
+
+@media only screen and (min-width: 968px) {
+    .footer-style {
+        position: absolute;
+        left: 42vw;
+        padding: 0;
+        width: 20vw;
+        margin-top: 60vh;
+        margin-right: 0;
+        margin-left: 0;
+        margin-bottom: 5vh;
+    }
+
+    .icon {
+        height: 5vh;
+        width: 5vw;
+    }
+}

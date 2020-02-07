@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="fiddle_style.css">
+    <link rel="stylesheet" type="text/css" href="navbar_final.css">
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+
+    <!-- AOS Animation library -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
+
+    <!--Social media Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+</head>
+
+<body>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.misn.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+
+    <!--Sidebar-->
+    <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <a href="main_page.html">Home</a>
+      <a href="#">About Us</a>
+      <a class="dropdown-toggle" href="#" data-toggle="dropdown" data>Events</a>
+      <div class="dropdown-menu">
+          <a href="hackathon.html" class="inner-dropdown">Hackathon</a>
+          <a href="c_collegium.html" class="inner-dropdown">C Collegium</a>
+          <a href="techno_quiz.html" class="inner-dropdown">Techno Quiz</a>
+          <a href="db_mania.html" class="inner-dropdown">DB Mania</a>
+          <a href="tech_explore.html" class="inner-dropdown">Tech Explore</a>
+          <a href="flyer_manifest.html" class="inner-dropdown">Flyer Manifest</a>
+          <a href="workshop.html" class="inner-dropdown">Workshop</a>
+      </div>
+      <a href="#">Brochure</a>
+      <a href="#">Sponsors</a>
+      <a href="#">Contact Us</a>
+      <a href="#">Developers</a>
+    </div>
+
+    <!--Menubar-->
+    <div class="container-fluid menubar-div">
+        <nav class="navbar navbar-expand-sm bg-dark navbar-dark bootstrap-navbar-custom">
+          <a href="main_page.html" class="navbar-brand">
+            <img src="resources/brochure/TARANG.png" style="max-height:100%; width: 30vw;" class="img-responsive img-responsive-custom" alt="Home">
+          </a>
+          <!-- Dropdown -->
+          <ul class="navbar-nav dropdown-custom">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle nav-link-custom" href="#" id="navbardrop" data-toggle="dropdown">
+                Events
+              </a>
+              <div class="dropdown-menu dropdown-menu-custom">
+                <a class="dropdown-item dropdown-item-custom" href="hackathon.html">Hackathon</a>
+                <a class="dropdown-item dropdown-item-custom" href="c_collegium.html">C Collegium</a>
+                <a class="dropdown-item dropdown-item-custom" href="techno_quiz.html">Techno Quiz</a>
+                <a class="dropdown-item dropdown-item-custom" href="db_mania.html">DB Mania</a>
+                <a class="dropdown-item dropdown-item-custom" href="tech_explore.html">Tech Explore</a>
+                <a class="dropdown-item dropdown-item-custom" href="flyer_manifest.html">Flyer Manifest</a>
+                <a class="dropdown-item dropdown-item-custom" href="workshop.html">Workshop</a>
+              </div>
+            </li>
+          </ul>
+          <span style="font-size:30px;cursor:pointer;" onclick="openNav()" class="sidenav-button-custom">&#9776;</span>
+        </nav>
+    </div>
+
+
+    <div class="container about-carousel" data-aos="zoom-in" data-flickity='{ "contain": true, "autoPlay": 1500, "prevNextButtons": false }'>
+        <div class="carousel-cell">
+            <img src="1.jpg">
+        </div>
+        <div class="carousel-cell">
+            <img src="2.jpg">
+        </div>
+        <div class="carousel-cell">
+            <img src="3.jpg">
+        </div>
+    </div>
+
+    <div class="container about-container" data-aos="zoom-in">
+        <h4 style="font-family: 'Lato', sans-serif; text-align: center; color: white;"><i>Raghu Engineering College</i></h4>
+        <br>
+        <p style="font-family: 'Lato', sans-serif; color: white;  text-align: justify;">
+            Raghu Engineering College established in the Academic year 2001-2002 with the approval of AICTE (All India
+            Council for Technical Education), permanent affiliation to JNTUK, Kakinada, accredited by NBA. The college
+            has been sanction ‘UGC Autonomous’ Status in 2017.
+        </p>
+        <br>
+        <h4 style="font-family: 'Lato', sans-serif; text-align: center; color: white;"><i>Tarang</i></h4>
+        <br>
+        <p style="font-family: 'Lato', sans-serif; color: white;  text-align: justify;">
+            TARANG is a National level Technical Fest conducted by Department of CSE,
+            Raghu Engineering College that provides an amazing platform for all the
+            students of various institutes across India to come together to show-off
+            their skills and talents by participating in various events like Tech
+            Explore(Paper Presentation), Flyer Manifest(Poster Presentation),
+            Hackathon (Coding Contest), Workshop/Guest Talk, DB-Mania(Solving
+            Database Queries), Techno Quiz (Technical quiz contest), C-collegium
+            (C coding contest) and win exciting prizes.
+
+        </p>
+    </div>
+
+    <hr>
+
+    <div class="container cse-carousel" data-aos="zoom-in" data-flickity='{ "contain": true, "autoPlay": 3000, "prevNextButtons": false }'>
+        <div class="carousel-cell">
+            <img src="1.jpg">
+        </div>
+        <div class="carousel-cell">
+            <img src="2.jpg">
+        </div>
+        <div class="carousel-cell">
+            <img src="3.jpg">
+        </div>
+    </div>
+
+    <div class="container cse-container" data-aos="zoom-in">
+        <h4 style="font-family: 'Lato', sans-serif; text-align: center; color: white;"><i>CSI</i></h4>
+        <br>
+        <p style="font-family: 'Lato', sans-serif; color: white;  text-align: justify;">
+            The seed for the Computer Society of India (CSI) was first shown in the year
+            1965 with a handful of IT enthusiasts who were a computer user group and
+            felt the need to organize tteir activities. They also wanted to share their
+            knowledge and exchange ideas on what they felt was a fast emerging sector.
+            Today the CSI takes pride in being the largest and most professionally
+            managed association of and for IT professionals in India. The purposes
+            of the Society are scientific and educational directed towards the
+            advancement of the theory and practice of computer science. Know
+            More at csi-india.org.
+        </p>
+    </div>
+
+    <footer style="background-color: #F64C72; margin: 0">
+        <p style="margin: 0">
+            Hello
+        </p>
+    </footer>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script type="text/javascript">
+        function openNav() {
+          document.getElementById("mySidenav").style.width = "250px";
+        }
+
+        function closeNav() {
+          document.getElementById("mySidenav").style.width = "0";
+        }
+    </script>
+
+</body>
+
+</html>

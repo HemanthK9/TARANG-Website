@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="navbar_final.css">
+    <link rel="stylesheet" type="text/css" href="carousel.css">
+    <link rel="stylesheet" type="text/css" href="footer_stylesheet(only about_us).css">
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+
+    <link rel="shortcut icon" type="image/png" href="icon.png"/>
+
+    <!-- AOS Animation library -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
+    <title>About Final</title>
+</head>
+
+<body>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+
+    <!--Sidebar-->
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="main_page.html">Home</a>
+        <a href="about_us.html">About Us</a>
+        <a class="dropdown-toggle" href="#" data-toggle="dropdown" data>Events</a>
+        <div class="dropdown-menu">
+            <a href="hackathon.html" class="inner-dropdown">Hackathon</a>
+            <a href="c_collegium.html" class="inner-dropdown">C Collegium</a>
+            <a href="techno_quiz.html" class="inner-dropdown">Techno Quiz</a>
+            <a href="db_mania.html" class="inner-dropdown">DB Mania</a>
+            <a href="tech_explore.html" class="inner-dropdown">Tech Explore</a>
+            <a href="flyer_manifest.html" class="inner-dropdown">Flyer Manifest</a>
+            <a href="workshop.html" class="inner-dropdown">Workshop</a>
+        </div>
+        <a href="#">Brochure</a>
+        <a href="contact_us.html">Contact Us</a>
+        <a href="credits.html">Credits</a>
+    </div>
+
+    <!--Menubar-->
+    <div class="container-fluid menubar-div">
+        <nav class="navbar navbar-expand-sm bg-dark navbar-dark bootstrap-navbar-custom">
+            <a href="main_page.html" class="navbar-brand">
+                <img src="resources/brochure/TARANG.png" style="max-height:100%; width: 30vw;" class="img-responsive img-responsive-custom" alt="Home">
+            </a>
+            <!-- Dropdown -->
+            <ul class="navbar-nav dropdown-custom">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle nav-link-custom" href="#" id="navbardrop" data-toggle="dropdown">
+                        Events
+                    </a>
+                    <div class="dropdown-menu dropdown-menu-custom">
+                        <a class="dropdown-item dropdown-item-custom" href="hackathon.html">Hackathon</a>
+                        <a class="dropdown-item dropdown-item-custom" href="c_collegium.html">C Collegium</a>
+                        <a class="dropdown-item dropdown-item-custom" href="techno_quiz.html">Techno Quiz</a>
+                        <a class="dropdown-item dropdown-item-custom" href="db_mania.html">DB Mania</a>
+                        <a class="dropdown-item dropdown-item-custom" href="tech_explore.html">Tech Explore</a>
+                        <a class="dropdown-item dropdown-item-custom" href="flyer_manifest.html">Flyer Manifest</a>
+                        <a class="dropdown-item dropdown-item-custom" href="workshop.html">Workshop</a>
+                    </div>
+                </li>
+            </ul>
+            <span style="font-size:30px;cursor:pointer;" onclick="openNav()" class="sidenav-button-custom">&#9776;</span>
+        </nav>
+    </div>
+
+    <div class="container about-carousel" data-aos="zoom-in" data-flickity='{ "contain": true, "autoPlay": 2000, "prevNextButtons": false }'>
+        <div class="carousel-cell">
+            <img class="carousel-image" src="images/raghu_logo.jpg" alt="Slow Internet?">
+        </div>
+        <div class="carousel-cell">
+            <img class="carousel-image" src="images/raghu_1.jpg" alt="Slow Internet?">
+        </div>
+        <div class="carousel-cell">
+            <img class="carousel-image" src="images/raghu_2.jpg" alt="Slow Internet?">
+        </div>
+    </div>
+
+    <div class="container about-container" data-aos="zoom-in">
+        <h4 style="font-family: 'Lato', sans-serif; text-align: center; color: white;"><i>Raghu Engineering College</i></h4>
+        <br>
+        <p style="font-family: 'Lato', sans-serif; color: white;  text-align: justify;">
+            Raghu Engineering College established in the Academic year 2001-2002 with the approval of AICTE (All India
+            Council for Technical Education), permanent affiliation to JNTUK, Kakinada, accredited by NBA. The college
+            has been sanction ‘UGC Autonomous’ Status in 2017.
+        </p>
+        <br>
+        <h4 style="font-family: 'Lato', sans-serif; text-align: center; color: white;"><i>Tarang</i></h4>
+        <br>
+        <p style="font-family: 'Lato', sans-serif; color: white;  text-align: justify;">
+            TARANG is a National level Technical Fest conducted by Department of CSE,
+            Raghu Engineering College that provides an amazing platform for all the
+            students of various institutes across India to come together to show-off
+            their skills and talents by participating in various events like Tech
+            Explore(Paper Presentation), Flyer Manifest(Poster Presentation),
+            Hackathon (Coding Contest), Workshop/Guest Talk, DB-Mania(Solving
+            Database Queries), Techno Quiz (Technical quiz contest), C-collegium
+            (C coding contest) and win exciting prizes.
+
+        </p>
+    </div>
+
+    <hr class="my-hr" data-aos="zoom-in">
+
+    <div class="container csi-carousel" data-aos="zoom-in" data-flickity='{ "contain": true, "autoPlay": 2000, "prevNextButtons": false }'>
+        <div class="carousel-cell">
+            <img  class="carousel-image" src="images/raghu_logo.jpg" alt="Slow Internet?">
+        </div>
+        <div class="carousel-cell">
+            <img class="carousel-image" src="images/raghu_1.jpg" alt="Slow Internet?">
+        </div>
+        <div class="carousel-cell">
+            <img class="carousel-image" src="images/raghu_2.jpg" alt="Slow Internet?">
+        </div>
+    </div>
+
+    <div class="container csi-container" data-aos="zoom-in">
+        <h4 style="font-family: 'Lato', sans-serif; text-align: center; color: white;"><i>CSI</i></h4>
+        <br>
+        <p style="font-family: 'Lato', sans-serif; color: white;  text-align: justify;">
+            The seed for the Computer Society of India (CSI) was first shown in the year
+            1965 with a handful of IT enthusiasts who were a computer user group and
+            felt the need to organize tteir activities. They also wanted to share their
+            knowledge and exchange ideas on what they felt was a fast emerging sector.
+            Today the CSI takes pride in being the largest and most professionally
+            managed association of and for IT professionals in India. The purposes
+            of the Society are scientific and educational directed towards the
+            advancement of the theory and practice of computer science. Know
+            More at csi-india.org.
+        </p>
+    </div>
+
+    <div class="footer footer-style">
+        <a href="#"> <img class="icon" src="images/fb.svg" alt="Not available"> </a>&nbsp&nbsp&nbsp
+        <a href="#"><img class="icon" src="images/insta.svg" alt="Not available"></a>&nbsp&nbsp&nbsp
+        <a href="#"><img class="icon" src="images/twitter.svg" alt="Not available"></a>
+    </div>
+
+
+    <script type="text/javascript">
+        function openNav() {
+            document.getElementById("mySidenav").style.width = "250px";
+        }
+
+        function closeNav() {
+            document.getElementById("mySidenav").style.width = "0";
+        }
+    </script>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+</body>
+
+</html>

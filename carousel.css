@@ -1,0 +1,135 @@
+body {
+    background-color: #1A1A1D;
+}
+
+.carousel-cell {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+.carousel-image {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+.my-hr {
+    position: relative;
+    top: 43vh;
+    border-top: 1vh solid white;
+    border-radius: 5px;
+}
+
+.about-carousel {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    top: 5vh;
+    height: 28vh;
+    width: 80vw;
+    left: 10vw;
+}
+
+.about-container {
+    position: absolute;
+    margin: 0;
+    top: 47vh;
+    left: 10vw;
+    width: 80vw;
+    height: 25vh;
+    background-color: #05386B;
+    box-shadow: 10px 10px #5CDB95;
+    overflow: auto;
+    padding: 1em;
+}
+
+.csi-carousel {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    top: 50vh;
+    height: 28vh;
+    width: 80vw;
+    left: 10vw;
+}
+
+.csi-container {
+    position: absolute;
+    margin-bottom: 30vh;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    top: 125vh;
+    left: 10vw;
+    width: 80vw;
+    height: 25vh;
+    background-color: #05386B;
+    box-shadow: 10px 10px #5CDB95;
+    overflow: auto;
+    padding: 1em;
+}
+
+@media only screen and (min-width: 968px) {
+    .about-carousel {
+        position: absolute;
+        margin: 0;
+        padding: 0;
+        height: 50vh;
+        width: 40vw;
+        top: 15vh;
+        left: 5vw;
+        z-index: 1;
+    }
+
+    .about-container {
+        position: absolute;
+        padding: 2em;
+        margin: 0;
+        border: 0;
+        top: 22vh;
+        left: 55vw;
+        width: 40vw;
+        height: 50vh;
+        background-color: #05386B;
+        box-shadow: 10px 10px #5CDB95;
+        overflow: auto;
+        z-index: 2;
+    }
+
+    .csi-carousel {
+        position: absolute;
+        margin-bottom: 50vh;
+        margin-left: 0;
+        margin-right: 0;
+        margin-top: 0;
+        padding: 0;
+        height: 50vh;
+        width: 40vw;
+        top: 48vh;
+        left: 55vw;
+        z-index: 1;
+    }
+
+    .csi-container {
+        position: absolute;
+        padding: 2em;
+        margin: 0;
+        border: 0;
+        top: 111vh;
+        left: 5vw;
+        width: 40vw;
+        height: 50vh;
+        background-color: #05386B;
+        box-shadow: 10px 10px #5CDB95;
+        overflow: auto;
+        z-index: 2;
+    }
+
+    .my-hr {
+        position: relative;
+        top: 30vh;
+        border-top: 1vh solid white;
+        border-radius: 5px;
+    }
+}
