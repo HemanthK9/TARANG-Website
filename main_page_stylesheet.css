@@ -77,6 +77,9 @@
     color: white;
     font-size: 1.5rem;
 }
+.sponsor-readjust-height {
+    height: 100%;
+}
 .h-divider {
 }
 .logo-images {
@@ -89,10 +92,16 @@
     .sponsors-div {
         height: 90vh;
     }
+    .sponsor-readjust-height {
+        height: 50%;
+    }
 }
 @media only screen and (min-width: 768px) {
     .sponsors-div {
-        height: 75vh;
+        height: 50vh;
+    }
+    .sponsor-readjust-height {
+        height: 100%;
     }
 }
 
@@ -100,12 +109,18 @@
     .sponsors-div {
         height: 50vh;
     }
+    .sponsor-readjust-height {
+        height: 100%;
+    }
 }
 @media only screen and (max-width: 576px) {
     .sponsors-div {
-        height: 180vh;
+        height: 100vh;
         padding-left: 20vw;
         padding-right: 20vw;
+    }
+    .sponsor-readjust-height {
+        height: 50%;
     }
 }
 
