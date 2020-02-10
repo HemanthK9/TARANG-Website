@@ -23,8 +23,8 @@
 
 .bottom-half {
     height: 60vh;
-    width: 100vw;
-    background-image: url('backgrounds/bg7.jpg');
+    width: 100%;
+    background-image: url('backgrounds/bg6.jpg');
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
@@ -90,8 +90,8 @@
 @media only screen and (max-width: 994px) {
     .bottom-half {
         height: 80vh;
-        width: 100vw;
-        background-image: url('backgrounds/bg7.jpg');
+        width: 100%;
+        background-image: url('backgrounds/bg6.jpg');
         background-repeat: no-repeat;
         background-size: 100% 100%;
     }
