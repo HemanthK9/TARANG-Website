@@ -24,7 +24,7 @@
 .bottom-half {
     height: 60vh;
     width: 100%;
-    background-image: url('backgrounds/bg6.jpg');
+    background-image: url('backgrounds/bg6mod.jpg');
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
@@ -91,7 +91,7 @@
     .bottom-half {
         height: 80vh;
         width: 100%;
-        background-image: url('backgrounds/bg6.jpg');
+        background-image: url('backgrounds/bg6mod.jpg');
         background-repeat: no-repeat;
         background-size: 100% 100%;
     }
