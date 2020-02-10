@@ -1,5 +1,9 @@
 body {
-    background-color: #1A1A1D;
+    background-image: url('backgrounds/bg1.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 .carousel-cell {
@@ -38,8 +42,8 @@ body {
     left: 10vw;
     width: 80vw;
     height: 25vh;
-    background-color: #05386B;
-    box-shadow: 10px 10px #5CDB95;
+    background-color: black;
+    box-shadow: 5px 5px #807D7D;
     overflow: auto;
     padding: 1em;
 }
@@ -64,8 +68,8 @@ body {
     left: 10vw;
     width: 80vw;
     height: 25vh;
-    background-color: #05386B;
-    box-shadow: 10px 10px #5CDB95;
+    background-color: black;
+    box-shadow: 5px 5px #807D7D;
     overflow: auto;
     padding: 1em;
 }
@@ -91,8 +95,8 @@ body {
         left: 55vw;
         width: 40vw;
         height: 50vh;
-        background-color: #05386B;
-        box-shadow: 10px 10px #5CDB95;
+        background-color: black;
+        box-shadow: 5px 5px #807D7D;
         overflow: auto;
         z-index: 2;
     }
@@ -120,8 +124,8 @@ body {
         left: 5vw;
         width: 40vw;
         height: 50vh;
-        background-color: #05386B;
-        box-shadow: 10px 10px #5CDB95;
+        background-color: black;
+        box-shadow: 5px 5px #807D7D;
         overflow: auto;
         z-index: 2;
     }
