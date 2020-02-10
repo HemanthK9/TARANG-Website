@@ -86,6 +86,16 @@
     width: 100%;
     margin-bottom: 10px;
 }
+.prof-logo-images {
+    width: 60%;
+    margin-bottom: 10px;
+    height: auto;
+}
+.qrcode-div {
+    width: 30%;
+    height: auto;
+    right: 0;
+}
 
 
 @media only screen and (min-width: 576px) {
@@ -121,6 +131,13 @@
     }
     .sponsor-readjust-height {
         height: 50%;
+    }
+    .prof-logo-images {
+        width: 100%;
+    }
+    .qrcode-div {
+        height: inherit;
+        width: auto;
     }
 }
 
