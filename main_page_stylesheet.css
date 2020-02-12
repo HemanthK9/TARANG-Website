@@ -156,6 +156,11 @@
     .smartgen-logo-div {
         width: 60%;
     }
+    .upays-logo-images {
+        height: 90%;
+        width: auto;
+        margin-bottom: 10px;
+    }
 }
 @media only screen and (min-width: 1428px) {
     .upays-logo-images {
