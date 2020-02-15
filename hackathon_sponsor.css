@@ -1,0 +1,66 @@
+.sponsor-div {
+    background-color: black;
+    padding-left: 6vw;
+    padding-right: 6vw;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+    height: 40vh;
+}
+.sponsor-div .display-4 {
+    color: white;
+    font-size: 1.5rem;
+}
+.sponsor-height {
+    height: 100%;
+}
+.akrivia-image {
+    display: block;
+    margin: auto;
+}
+.money-image {
+    max-height: 90%;
+    display: block;
+    margin: auto;
+}
+
+@media only screen and (min-width: 576px) {
+    .sponsor-div {
+        height: 90vh;
+    }
+    .sponsor-height {
+        height: 50%;
+    }
+}
+@media only screen and (min-width: 768px) {
+    .sponsor-div {
+        height: 90vh;
+    }
+    .sponsor-height {
+        height: 50%;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .sponsor-div {
+        height: 50vh;
+    }
+    .sponsor-height {
+        height: 100%;
+    }
+}
+@media only screen and (min-width: 1428px) {
+    .money-image {
+        height: inherit;
+        width: auto;
+    }
+}
+@media only screen and (max-width: 576px) {
+    .sponsor-div {
+        height: 60vh;
+        padding-left: 20vw;
+        padding-right: 20vw;
+    }
+    .sponsor-height {
+        height: 50%;
+    }
+}
